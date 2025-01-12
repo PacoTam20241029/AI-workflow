@@ -1,0 +1,10 @@
+user_count,data_size,availability,latency,scalability,requirements
+1000000,500,high,low,high,Use a load balancer
+500000,200,medium,medium,medium,Use a single database
+2000000,1000,high,low,high,Implement redundancy
+300000,150,low,high,low,Use a CDN
+1500000,800,high,medium,high,Use microservices1000,2,high,low,low,Software deployment
+1000,3,high,high,high,Software deployment
+10000,2,high,high,high,Software deployment
+1000,2,high,high,high,Software deployment
+1000,0.5,high,high,high,Software deployment

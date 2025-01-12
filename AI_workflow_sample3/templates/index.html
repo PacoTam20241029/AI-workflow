@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Design Workflow</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Create System Design Workflow</h1>
+    <form action="{{ url_for('submit') }}" method="post">
+        <label for="user_count">User Count:</label>
+        <input type="text" id="user_count" name="user_count"><br>
+        <label for="data_size">Data Size (GB):</label>
+        <input type="text" id="data_size" name="data_size"><br>
+        <label for="availability">Availability (low/medium/high):</label>
+        <input type="text" id="availability" name="availability"><br>
+        <label for="latency">Latency (low/medium/high):</label>
+        <input type="text" id="latency" name="latency"><br>
+        <label for="scalability">Scalability (low/medium/high):</label>
+        <input type="text" id="scalability" name="scalability"><br>
+        <label for="requirements">Additional Requirements:</label>
+        <input type="text" id="requirements" name="requirements"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
